@@ -16,9 +16,9 @@
 Проверяем работу: http://127.0.0.1:8000 
 
 ## Запуск через докер
-`docker build -t sw_search .`
+`docker build -t phone_api .`
 
-`docker run -p 8000:8000 sw_search`
+`docker run -p 8000:8000 phone_api`
 
 Проверяем работу: http://127.0.0.1:8000 
 
