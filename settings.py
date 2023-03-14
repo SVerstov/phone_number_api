@@ -1,4 +1,8 @@
+import os
+
 csv_folder = 'csv_folder'
+
+
 
 download_links = [
     'https://opendata.digital.gov.ru/downloads/ABC-3xx.csv',
@@ -8,3 +12,6 @@ download_links = [
 ]
 
 download_period = 24 * 60 * 60
+
+if not os.path.exists(csv_folder):
+   os.makedirs(csv_folder)
